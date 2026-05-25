@@ -1,0 +1,100 @@
+{
+  "curriculumId": "git-curriculum",
+  "title": "Git / GitHub 基礎（Sourcetree版）",
+  "description": "AI時代の問い起点学習を前提に、課題提出に直結するGit/GitHub運用を身につけるプログラム（Sourcetree + Gitflow簡易版）。",
+  "chapters": [
+    {
+      "id": "unit0",
+      "title": "Unit 0: 学習設計とイントロダクション",
+      "items": [
+        {
+          "id": "career-design",
+          "title": "第0章: キャリア設計と学習設計",
+          "path": "chapters/00-career-design.md",
+          "estimatedMinutes": 10,
+          "hasAssignment": false
+        },
+        {
+          "id": "why-git",
+          "title": "第1章: なぜGitを学ぶのか",
+          "path": "chapters/00-why-git.md",
+          "estimatedMinutes": 15,
+          "hasAssignment": false
+        }
+      ]
+    },
+    {
+      "id": "unit1",
+      "title": "Unit 1: 環境構築",
+      "items": [
+        {
+          "id": "setup",
+          "title": "第2章: 環境構築（Sourcetree + GitHub）",
+          "path": "chapters/01-setup.md",
+          "estimatedMinutes": 90,
+          "hasAssignment": false
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "title": "Unit 2: 基本操作",
+      "items": [
+        {
+          "id": "first-commit",
+          "title": "第3章: はじめてのコミットとプッシュ",
+          "path": "chapters/02-first-commit.md",
+          "estimatedMinutes": 60,
+          "hasAssignment": false
+        },
+        {
+          "id": "branching",
+          "title": "第4章: ブランチで安全に作業する",
+          "path": "chapters/03-branching.md",
+          "estimatedMinutes": 60,
+          "hasAssignment": false
+        },
+        {
+          "id": "pull-request",
+          "title": "第5章: PRで提出してマージする",
+          "path": "chapters/04-pull-request.md",
+          "estimatedMinutes": 60,
+          "hasAssignment": true
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "title": "Unit 3: 実践",
+      "items": [
+        {
+          "id": "submission-workflow",
+          "title": "第6章: 課題提出ワークフロー",
+          "path": "chapters/05-submission-workflow.md",
+          "estimatedMinutes": 90,
+          "hasAssignment": true
+        },
+        {
+          "id": "conflict-resolution",
+          "title": "第7章: コンフリクトの理解と解決",
+          "path": "chapters/06-conflict-resolution.md",
+          "estimatedMinutes": 70,
+          "hasAssignment": true
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "title": "Unit 4: リファレンス",
+      "items": [
+        {
+          "id": "troubleshooting",
+          "title": "第8章: トラブルシューティング＆クイックリファレンス",
+          "path": "chapters/07-troubleshooting.md",
+          "estimatedMinutes": 20,
+          "hasAssignment": false
+        }
+      ]
+    }
+  ]
+}
